@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Trial Survey Form</h1>
+    <p id="description"> This form is used by the organization to help improve its services. Kindly help us by filling it out. Thank you!</p>
+    <form id="survey-form" type="submit" method="post">
+      <fieldset class="one">
+  
+        <label id="name-label" for="name">Name:</label><br><input id="name" name="name" type="text" placeholder="Enter your name" required/>
+        <label id="email-label" for="email">Email address:</label><br><input id="email" name="email" type="email" placeholder="Enter your email address" required/>
+        <label id="number-label" for="number">ID Number:</label><br><input id="number" name="number" type="text" placeholder="i.e.12345678" pattern="[0-9]{8}" minlength="8" maxlength="8" required/><br>
+        <label for="hear">How did you know about us?
+        <select id="dropdown" name="dropdown">
+          <option value="">(Select one)</option>
+          <option value="1">Friends</option>
+          <option value="2">Posters</option>
+        </select>
+        </label>
+      </fieldset>
+
+      <fieldset class="two">
+      <label >Type of account:<br>
+          <input type="radio"/>Personal Account
+          
+          <input type="radio"/>Business Account
+        </label>        
+    
+      <label> Which services/courses do you want us to improve on (Check all that apply)<br>
+        <input type="checkbox" value="1" />Front-end courses (HTML, CSS, JAVASCRIPT)
+        <br>
+        <input type="checkbox" value="2" />Back-end courses
+        <br>
+        <input type="checkbox" value="3" />Certification
+        <br>
+        <input type="checkbox" value="4" />Video tutorials
+         <br>
+
+      </label>
+    </fieldset>
+
+
+    <button type="submit" id="submit" onclick="showAlert()" >Submit</button>
+    </form>
+
+    
+  <script >
+    function showAlert(){
+        alert("Thank you for taking your time to fill the survey form. Good day!");
+    }
+   
+
+  </script>
+        
+    
+        
+  </body>
+</html>

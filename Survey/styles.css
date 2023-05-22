@@ -1,0 +1,98 @@
+body{
+    margin: 0; 
+    background-color:#1b1b32;
+    color:#ffffff;
+    width:100%;
+    height:100vh;
+    font-size: 18px;
+    background-image: url('6.jpg');
+
+  }
+  
+  h1{
+    margin: 10px;
+    display:block;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    margin: 0;
+    width: 450px;
+    margin-left: 480px;
+  }
+  
+  form {
+      width: 50%;
+      height: 100vh;
+      margin-left: 150px;
+    }
+    
+    .one{
+    display: block; 
+    margin-left: 250px;
+    background-color: #8eafc2;
+    margin-right: 200px;
+    padding: 2em;
+    width: 500px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    
+    }
+
+    .two{
+      width: 506px;
+      margin-left: 250px;
+      margin-right: 300px;
+      padding: 2em;
+      background-color: #8eafc2;
+      margin-bottom: 8px;
+    }
+
+    .three {
+      width: 506px;
+      margin-left: 200px;
+    }
+
+    label {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 0;
+        text-align: left;
+    }
+    
+    input {
+      width: 500px;
+      height: 25px;
+      margin-top: 0;
+      margin-bottom: 5px;
+      margin-left: 0;
+    }
+    
+    fieldset:nth-of-type(2) input {
+      margin-left: 2px;
+      width: 40px;
+      height: 15px;
+    
+    }
+
+    fieldset:nth-of-type(2) label {
+      margin-top: 2px;
+      margin-bottom: 6px;
+      line-height: 1.6;
+      font-size: 18px;
+    }
+
+    button{
+      position: center;
+      width: 100px;
+      background-color: rgb(123, 132, 134);
+      margin-bottom: 0;
+      margin-top: 20px;
+      margin-left: 600px;
+      font-size: 20px;
+    }
+    
+   
+  
+  
